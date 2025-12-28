@@ -1,4 +1,23 @@
+# Python cache and compiled files
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# IDE/editor stuff
 .vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Secrets / environment variables
+.env
+
