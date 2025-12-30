@@ -69,4 +69,10 @@ print(2 > 3 and 4 < 5) # Only true when both conditions are correct
 print(3 < 7 or 6 > 2) # Only true when only one or both condition are correct
 print(not 4 > 2) # it reverse the answer
 
+## If/else statement ✅
 
+myAge = int(input("My age is: "))
+if myAge >= 18:
+    print("You can vote")
+else:
+    print("Sorry, you can't vote")
