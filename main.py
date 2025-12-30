@@ -5,7 +5,7 @@ print("hello World")
 rohama = 23
 print(rohama) 
 
-## Datatypes wo bhi sirf 3 (int, str, bool) jo main hain ✅
+## Datatypes wo bhi sirf 5 (int, str, bool, float, complex) jo main hain ✅
 a = 1 # interger wrote as int
 b = "Rohama" # string wrote as str
 c = 0.5 # float 
@@ -43,4 +43,14 @@ print(r"For new line we use \n")
 
 myName = "Rohama"
 print(f"My name is {myName}")
+
+## Arithmetic Operators ✅
+
+print(2 + 3) # Add both numbers
+print(3 - 4) # Subtract both numbers
+print(5 * 8) # Multiply both numbers
+print(2 / 9) # Divide both numbers but gives you values in float
+print(2 // 5) # Divide both numbers but gives you value in integer
+print(3 ** 0) # Its means 3 ke power zero
+print(3 % 5) # Gives remainder of both numbers
 
