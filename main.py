@@ -24,4 +24,23 @@ print(age, type(age))
 age = int(age)
 print(age, type(age))  # Same as str(value), bool(value), float(bool) and so on....
 
-# Ab agr boolean ke bt kee jaaye kay issko kse krna hai toh iss mein aa jati hain 2 values truthy and falsy, ab yahn asay maan lo kay sb data types, sb values truthy hoti hain means true, and kuch hee values falsy hoti hain jase kay (0, none, "", undefined, False). Ab agr variables mein falsy values ayyein toh samaj lena ye false hain or baqi sb values true.
+# Ab agr boolean ke bt kee jaaye kay issko kse krna hai toh iss mein aa jati hain 2 values truthy and falsy, ab yahn asay maan lo kay sb data types, sb values truthy hoti hain means true, and kuch hee values falsy hoti hain jase kay (0, none, "", undefined, False, {}, []). Ab agr variables mein falsy values ayyein toh samaj lena ye false hain or baqi sb values true.
+
+## Use of Input (we have to take some input from user) ✅
+
+yourAge = input("Enter your age ?")
+print(yourAge)
+
+## Escape Sequences (/n, /t, /b etc) ✅
+
+print("My name is Rohama\nMy Age is 20.")
+
+## Raw Strings (use to stop the functionality of escape sequence) ✅
+
+print(r"For new line we use \n")
+
+## Formated Strings (to use the variable values in result) ✅
+
+myName = "Rohama"
+print(f"My name is {myName}")
+
