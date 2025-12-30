@@ -54,3 +54,13 @@ print(2 // 5) # Divide both numbers but gives you value in integer
 print(3 ** 0) # Its means 3 ke power zero
 print(3 % 5) # Gives remainder of both numbers
 
+## Comparison Operators is used b/w 2 numbers (answer will always in boolean) ✅
+
+print(5 > 6) # greater than
+print(4 < 3) # less than
+print(3 == 4) # equal to
+print(2 != 4) # not equal to
+print(2 <= 4) # equal and less than
+print(4 >= 3) # equal and greater than
+
+
