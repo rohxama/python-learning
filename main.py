@@ -63,4 +63,10 @@ print(2 != 4) # not equal to
 print(2 <= 4) # equal and less than
 print(4 >= 3) # equal and greater than
 
+## Logical Operator (and, or, not) ✅
+
+print(2 > 3 and 4 < 5) # Only true when both conditions are correct
+print(3 < 7 or 6 > 2) # Only true when only one or both condition are correct
+print(not 4 > 2) # it reverse the answer
+
 
