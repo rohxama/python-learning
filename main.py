@@ -76,3 +76,13 @@ if myAge >= 18:
     print("You can vote")
 else:
     print("Sorry, you can't vote")
+
+## elif statement (when there are more than one options or conditions) ✅
+
+item = input("Which icecream you have? ")
+if item == "pista":
+    print("Pack Pista")
+elif item == "Vanilla":
+    print("Pack Vanilla")
+else:
+    print("Don't Pack")
