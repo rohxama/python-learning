@@ -98,3 +98,15 @@ a = 0
 while a < 10:
     print(a)
     a = a + 1 # Increment so that we can false the condition at a specified range without this it become infinte
+
+## Continue and break statement ✅
+
+for i in range(1,4,1):
+    print(i)
+    if i == 2:
+        break # Break statement breaks the loop
+
+for i in range(1,5,1):
+    if i == 3:
+        continue # Continue statement continue the loop except that number which we wrote in condition
+    print(i)
