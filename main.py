@@ -86,3 +86,8 @@ elif item == "Vanilla":
     print("Pack Vanilla")
 else:
     print("Don't Pack")
+
+## For loop (use when we need a huge amount of number or data reapeatly) ✅
+
+for i in range(1,21,1): # Range function contaons 3s (Start, Stop, Steps)
+    print(i) # i stands for iteration, har bari jb loop chale ga isske value change ho gii
