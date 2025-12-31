@@ -91,3 +91,10 @@ else:
 
 for i in range(1,21,1): # Range function contaons 3s (Start, Stop, Steps)
     print(i) # i stands for iteration, har bari jb loop chale ga isske value change ho gii
+
+## While loop (when we run the condition in loop) ✅
+
+a = 0
+while a < 10:
+    print(a)
+    a = a + 1 # Increment so that we can false the condition at a specified range without this it become infinte
