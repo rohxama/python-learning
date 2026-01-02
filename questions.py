@@ -45,3 +45,45 @@ elif year % 100 == 0 and year % 400 == 0:
     print("This is leap year")
 else:
     print("This is not a leap year") 
+
+# Accept a character from user and check if it is vowel or consonent
+
+inp = input("Enter your character: ")
+if inp in "aeiouAEIOU":
+    print("This is vowel")
+else:
+    print("This is consonent")
+
+# Print number up to n
+
+n = int(input("Enter a number: "))
+for i in range(1,n+1,1):
+    print(i)
+
+# Reverse the loop n to 1
+
+x = int(input("Enter a number: "))
+for i in range(x,0,-1):
+    print(i)
+
+# Take a number as a input and print its table
+
+tableOf = int(input("Enter your number: "))
+for i in range(1,11,1):
+    print(f"{tableOf} * {i} = {tableOf*i}")
+
+# Sum up n number
+
+y = int(input("Enter a number: "))
+sum = 0
+for i in range(1,y+1,1):
+    sum = sum + i
+print(sum)
+
+# Find factorial of n number
+
+f = int(input("Enter a number: "))
+mul = 1
+for i in range(1,f+1,1):
+    mul = mul * i
+print(mul)
