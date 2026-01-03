@@ -87,3 +87,10 @@ mul = 1
 for i in range(1,f+1,1):
     mul = mul * i
 print(mul)
+
+# Find the factor of number
+
+fact = int(input('Enter a number: '))
+for i in range(1, fact+1, 1):
+    if(fact%i == 0):
+        print(fact)
