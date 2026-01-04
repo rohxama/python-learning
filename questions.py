@@ -92,5 +92,17 @@ print(mul)
 
 fact = int(input('Enter a number: '))
 for i in range(1, fact+1, 1):
-    if(fact%i == 0):
-        print(fact)
+    if fact%i == 0:
+        print(i)
+
+# Accept a number and check if it is perfect number or not
+
+z = int(input("Enter a number: "))
+m = 0
+for i in range(1, z, 1):
+    if z%i == 0:
+        m = m + i
+if m == z:
+    print("It is a perfect number")
+else:
+    print("Not perfect number")
