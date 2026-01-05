@@ -106,3 +106,4 @@ if m == z:
     print("It is a perfect number")
 else:
     print("Not perfect number")
+    
