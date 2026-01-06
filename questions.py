@@ -106,4 +106,16 @@ if m == z:
     print("It is a perfect number")
 else:
     print("Not perfect number")
+
+# Check if the number is prime or not
+
+pri = int(input("Enter your number: "))
+count = 0
+for i in range(1, pri + 1, 1):
+    if pri%i == 0:
+        count = count + 1
+if count == 2:
+    print("It is a prime number")
+else:
+    print("It is not a prime number")
     
