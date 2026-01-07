@@ -118,4 +118,6 @@ if count == 2:
     print("It is a prime number")
 else:
     print("It is not a prime number")
+
+    
     
