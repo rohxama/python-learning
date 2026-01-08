@@ -95,7 +95,7 @@ for i in range(1, fact+1, 1):
     if fact%i == 0:
         print(i)
 
-# Accept a number and check if it is perfect number or not
+# Accept a number and check if it is perfect number or not (If its factors sum except itself the number is equal to that number)
 
 z = int(input("Enter a number: "))
 m = 0
@@ -107,7 +107,7 @@ if m == z:
 else:
     print("Not perfect number")
 
-# Check if the number is prime or not
+# Check if the number is prime or not (If its factor are more than 2)
 
 pri = int(input("Enter your number: "))
 count = 0
@@ -119,5 +119,10 @@ if count == 2:
 else:
     print("It is not a prime number")
 
-    
-    
+# Accept a number and separate it
+
+numbr = int(input("Enter a number: "))
+
+while(numbr > 0):
+    print(a%10)
+    a = a // 10    
