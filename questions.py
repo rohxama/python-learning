@@ -124,19 +124,21 @@ else:
 numbr = int(input("Enter a number: "))
 
 while(numbr > 0):
-    print(a%10)
-    a = a // 10    
+    print(numbr%10)
+    numbr = numbr // 10    
 
 # Check if number is pallindromic (If number and its reverse in equal) or not
 
-copy = int(input("Enter a number: "))
+p = int(input("Enter a number: "))
+rev = 0
+copy = p
 
-while copy > 0:
-    t = copy % 10
-    rev = rev * 10 + z
-    copy = copy // 10
-
+while(p > 0):
+    t = p % 10
+    rev = rev * 10 + t
+    p = p // 10
 if copy == rev:
-    print("Pallindromic number")
+    print("Pallindromic Number")
 else:
-    print("Not a pallindromic number")
+    print("Not a Pallindromic number")
+
